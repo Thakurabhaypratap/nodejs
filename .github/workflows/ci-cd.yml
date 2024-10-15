@@ -42,4 +42,4 @@ jobs:
           docker pull abhaypratapsingh7704866570/nodeja:latest
           docker stop backend || true
           docker rm backend || true
-          docker run -d --name backend -e PORT=80 -p 80:80 abhaypratapsingh7704866570/backend:latest
+          docker run -d --name backend -e PORT=80 -p 80:80 abhaypratapsingh7704866570/nodeja:latest
